@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_animal_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="animal_name"
+        android:hint="@string/animal_name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/edit_animal_breed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/animal_breed"
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/edit_animal_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/animal_age"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_cancel"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="8dp"
+            android:text="@string/cancel"
+            android:textColor="#00796B" />
+
+        <Button
+            android:id="@+id/button_add"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/add_animal"
+            android:textColor="#00796B" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/recordDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Record Date"
+        android:inputType="date"
+         android:layout_marginBottom="8dp"/>
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:inputType="text"
+         android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/vetNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vet Name"
+        android:inputType="text"
+         android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/treatmentsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Treatments"
+        android:inputType="textMultiLine"
+         android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
